@@ -72,7 +72,7 @@ table {
 			<h3>商品を購入する際にはログインをお願いします。</h3>
 			<s:form action="LoginAction">
 				<s:textfield name="loginUserId" />
-				<s:passwordname = "loginPassword"/>
+				<s:password name = "loginPassword"/>
 				<s:submit value="ログイン" />
 			</s:form>
 			<br />

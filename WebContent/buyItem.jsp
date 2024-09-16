@@ -72,11 +72,12 @@ table {
 						<td><s:property value="session.buyItem_name" /><br></td>
 					</tr>
 					<tr>
-					</tr>
-					<tr>
+
 						<td><span>値 段</span></td>
 						<td><s:property value="session.buyItem_price" /><span>円
 						</span></td>
+					</tr>
+					<tr>
 						<td><span>購入個数 < /span> </td>
 						<td><select name="count">
 								<option value="1" selected="selected">1</option>
@@ -93,7 +94,7 @@ table {
 							value="2">クレジットカード</td>
 					</tr>
 					<tr>
-						<td><s:submitvalue ="購入"/></td>
+						<td><s:submit value="購入" /></td>
 					</tr>
 				</table>
 			</s:form>
