@@ -78,7 +78,7 @@ table {
 						</span></td>
 					</tr>
 					<tr>
-						<td><span>購入個数 < /span> </td>
+						<td><span>購入個数 </span> </td>
 						<td><select name="count">
 								<option value="1" selected="selected">1</option>
 								<option value="2">2</option>
