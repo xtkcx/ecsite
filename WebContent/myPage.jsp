@@ -86,11 +86,11 @@ table {
 				</tr>
 				<s:iterator value="myPageList">
 					<tr>
-						<td><s:property value="itemName" /></td>
-						<td><s:property value="totalPrice" /> <span> 円 </span></td>
-						<td><s:property value="totalCount" /><span> 個 </span></td>
-						<td><s:property value="payment" /></td>
-						<td><s:property value="insert_date" /></td>
+						<td><s:property value="itemName"/></td>
+						<td><s:property value="totalPrice"/><span>円 </span></td>
+						<td><s:property value="totalCount"/><span>個 </span></td>
+						<td><s:property value="payment"/></td>
+						<td><s:property value="insert_date"/></td>
 					</tr>
 				</s:iterator>
 			</table>
@@ -109,7 +109,7 @@ table {
 
 			<div id="text-right">
 				<p>
-					Homeへ戻る場合は <a href='<s:url action="GoHomeAction "/>'>こちら </a>
+					Homeへ戻る場合は <a href='<s:url action="GoHomeAction"/>'>こちら </a>
 				</p>
 				<p>
 					ログアウトする場合は <a href='<s:url action="LogoutAction"/>'>こちら </a>
